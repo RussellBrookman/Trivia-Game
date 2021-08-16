@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Trivia Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="content">
+    <header><h1>Trivia Game</h1></header>
+    <button class="start">Start</button>
+    <div class="game">
+      <div class="timer"></div>
+      <div class="score"></div>
+      <div class="finalScore"></div>
+      <div class="questions"></div>
+        <div class="answers">
+          <div><button id="answerA" class="ans"></button></div>
+          <div><button id="answerB" class="ans"></button></div>
+          <div><button id="answerC" class="ans"></button></div>
+          <div><button id="answerD" class="ans"></button></div>
+        </div>
+    </div> 
+    <div class="theAnswer"></div>
+    <div class="gameOver">
+      <h2>GAME OVER</h2>
+      <div class="finalScore"></div>
+      <div class="restart">
+        <button class="reset">Play Again?</button>
+      </div>
+    </div>
+  </div>
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src='script.js' type="text/javascript"></script>
+</body>
+</html>
